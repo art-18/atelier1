@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Artiste</title>
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
+      background: #f2f2f2;
+      color: #222;
+    }
+    header {
+      background: #0d0d0d;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .workshops {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0d0d0d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portfolio d’Artiste</h1>
+  <p>Corps, mémoire, mouvement et perception</p>
+</header>
+
+<section>
+  <h2>À propos</h2>
+  <p>
+    Mon travail explore la présence du corps, la trace et la mémoire à travers la photographie performative.
+  </p>
+</section>
+
+<section class="gallery">
+  <h2>Œuvre</h2>
+  <img src="image.jpg" alt="Photographie artistique">
+</section>
+
+<section>
+  <h2>Ateliers</h2>
+  <div class="workshops">
+    <div class="card"><h3>Corps et mouvement</h3></div>
+    <div class="card"><h3>Photographie expérimentale</h3></div>
+    <div class="card"><h3>Image et identité</h3></div>
+    <div class="card"><h3>Performance visuelle</h3></div>
+    <div class="card"><h3>Création de portfolio</h3></div>
+    <div class="card"><h3>Laboratoire créatif</h3></div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Artiste</p>
+</footer>
+
+</body>
+</html>
